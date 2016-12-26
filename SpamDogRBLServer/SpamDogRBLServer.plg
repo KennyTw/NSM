@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SpamDogRBLServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KennyLee\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/SpamDogRBLServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\CVSWORK\NSM\SpamDogRBLServer\RBLServer.cpp"
+"D:\CVSWORK\NSM\SpamDogRBLServer\SpamDogRBLServer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KennyLee\LOCALS~1\Temp\RSP10.tmp" 
+Creating temporary file "C:\DOCUME~1\KennyLee\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/SpamDogRBLServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\CVSWORK\NSM\SpamDogRBLServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KennyLee\LOCALS~1\Temp\RSP11.tmp" 
+Creating temporary file "C:\DOCUME~1\KennyLee\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Swsocket2.lib Ws2_32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/SpamDogRBLServer.pdb" /debug /machine:I386 /out:"Debug/SpamDogRBLServer.exe" /pdbtype:sept /libpath:"../Swsocket2/Debug" 
+.\Debug\RBLServer.obj
+.\Debug\SpamDogRBLServer.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\KennyLee\LOCALS~1\Temp\RSP12.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+RBLServer.cpp
+SpamDogRBLServer.cpp
+Generating Code...
+Linking...
+LINK : fatal error LNK1104: cannot open file "Swsocket2.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+SpamDogRBLServer.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

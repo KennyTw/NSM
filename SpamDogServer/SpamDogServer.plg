@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SpamDogServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\2\RSPD.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_CONSOLEDBG" /FR"Debug/" /Fp"Debug/SpamDogServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\NSM\SpamDogServer\AntiSpamServer.cpp"
+"D:\NSM\SpamDogServer\IMAPServer.cpp"
+"D:\NSM\SpamDogServer\ManageHttpServer.cpp"
+"D:\NSM\SpamDogServer\md5.cpp"
+"D:\NSM\SpamDogServer\md5wrapper.cpp"
+"D:\NSM\SpamDogServer\MsnClient.cpp"
+"D:\NSM\SpamDogServer\MsnSwBoard.cpp"
+"D:\NSM\SpamDogServer\POP3Server.cpp"
+"D:\NSM\SpamDogServer\ServerDB.cpp"
+"D:\NSM\SpamDogServer\SpamDogServer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\2\RSPD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\2\RSPE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_CONSOLEDBG" /FR"Debug/" /Fp"Debug/SpamDogServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\NSM\SpamDogServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\2\RSPE.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AntiSpamServer.cpp
+IMAPServer.cpp
+ManageHttpServer.cpp
+md5.cpp
+md5wrapper.cpp
+MsnClient.cpp
+MsnSwBoard.cpp
+POP3Server.cpp
+ServerDB.cpp
+SpamDogServer.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\2\RSP12.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib Swsocket2.lib Swfiledb.lib Dbghelp.lib Activeds.lib Adsiid.lib Swparser.lib Swspam.lib Wininet.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/SpamDogServer.pdb" /debug /machine:I386 /out:"Debug/SpamDogServer.exe" /pdbtype:sept /libpath:"../Swsocket2/Debug" /libpath:"../../SpamDog/Swfiledb/Debug" /libpath:"../../SpamDog/Swparser/Debug" /libpath:"../../SpamDog/Swspam/Debug" 
+.\Debug\AntiSpamServer.obj
+.\Debug\IMAPServer.obj
+.\Debug\ManageHttpServer.obj
+.\Debug\md5.obj
+.\Debug\md5wrapper.obj
+.\Debug\MsnClient.obj
+.\Debug\MsnSwBoard.obj
+.\Debug\POP3Server.obj
+.\Debug\ServerDB.obj
+.\Debug\SpamDogServer.obj
+.\Debug\StdAfx.obj
+.\Debug\SpamDogServer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\2\RSP12.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : fatal error LNK1168: cannot open Debug/SpamDogServer.exe for writing
+Error executing link.exe.
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\2\RSP14.tmp" with contents
+[
+/nologo /o"Debug/SpamDogServer.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\AntiSpamServer.sbr
+.\Debug\IMAPServer.sbr
+.\Debug\ManageHttpServer.sbr
+.\Debug\md5.sbr
+.\Debug\md5wrapper.sbr
+.\Debug\MsnClient.sbr
+.\Debug\MsnSwBoard.sbr
+.\Debug\POP3Server.sbr
+.\Debug\ServerDB.sbr
+.\Debug\SpamDogServer.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\2\RSP14.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SpamDogServer.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
